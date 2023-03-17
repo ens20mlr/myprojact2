@@ -37,7 +37,7 @@ class Index extends React.Component{
                       </a>
                     </div>
                     <div id="movieContainer">
-                      <img  src={require('../files/shrekbild.jpg')} width="100px" height="150px" />
+                      <img  src={require('../files/shrekbild.jpg')} width="100px" height="150px" alt ="hej"/>
                     </div>
                   </div>
                 </div>
@@ -50,7 +50,7 @@ class Index extends React.Component{
                     <img
                       className="moviepicture"
                       id="film1"
-                      src={require('../files/harrypotter.jpg')}
+                      src={require('../files/harrypotter.jpg', alt ="hej")}
                       style={{ float: "left" }}
                       onclick="get_random_image()"
                     />
@@ -63,7 +63,7 @@ class Index extends React.Component{
                   </div>
                   <div className="film-2">
                     {/* <h4>Conjouring 2</h4> */}
-                    <img className="moviepicture"  src={require('../files/conjouring.jpg')} />
+                    <img className="moviepicture"  src={require('../files/conjouring.jpg' ,alt ="hej")} />
                     <p className="filmtext">
                       An orphaned boy enrolls in a school of wizardry, where he learns the
                       truth about himself, his family and the terrible evil that haunts
@@ -72,7 +72,7 @@ class Index extends React.Component{
                     <br />
                   </div>
                   <div className="film-3">
-                    <img className="moviepicture"  src={require('../files/wakanda.jpeg')} />
+                    <img className="moviepicture"  src={require('../files/wakanda.jpeg', alt ="hej")} />
                     <p className="filmtext">
                       Folket i Wakanda kämpar för att skydda sitt hem från ingripande
                       världsmakter när de sörjer kung T'Challas död
